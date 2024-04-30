@@ -21,7 +21,8 @@ x-ui安装命令（可以去B站搜索视频：https://www.bilibili.com/video/BV
 
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 
-小白的话就看我解说安装，（切记不能按删除键，按完无法修改）/n
+小白的话就看我解说安装，（切记不能按删除键，按完无法修改）
+
 首先输入Y确定安装，然后里面有中文提示，输入账号，输入密码，输入端口号，然后你的服务器加你刚才的端口号就可以访问了
 
 如果无法访问就是防火墙开开通端口，要么关掉防火墙，设置完防火墙记得重启才能生效！
