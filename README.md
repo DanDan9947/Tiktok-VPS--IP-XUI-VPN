@@ -17,7 +17,7 @@
 
 然后去地址测一下你的IP是否正常,输入你购买的服务器IP，如果显示ip不行可以退款，1天内可以退款，然后重新买，地址是：http://www.ipjiance.com
 <div>
-  <img style="margin:10px" src="./03.png" alt="drawing"/>
+  <img style="margin:10px" src="./03.jpg" alt="drawing"/>
 </div>
 
 x-ui安装命令（可以去B站搜索视频：https://www.bilibili.com/video/BV1FB4y1p7uo/?share_source=copy_web&vd_source=f34b2c55dc1c7c8c0937e65e4d3ab5ee）
