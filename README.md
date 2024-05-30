@@ -2,7 +2,7 @@
 ## 购买服务器图片演示
 
 1、选择服务器
-我选择的服务器： https://ipraft.com/?i71b7cf
+我选择的服务器： [链接地址](URL "https://ipraft.com/?i71b7cf")
 
 <div>
   <img style="margin:10px" src="./1.png" alt="drawing"/>
