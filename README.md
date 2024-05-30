@@ -53,6 +53,6 @@ sudo systemctl status firewalld
 
 然后去地址测一下你的IP是否正常,输入你购买的服务器IP，如果显示ip不行可以退款，1天内可以退款，然后重新买，地址是：http://www.ipjiance.com
 <div>
-  <img style="margin:10px" src="./3.png" alt="drawing"/>
+  <img style="margin:10px" src="./4.png" alt="drawing"/>
 </div>
 
