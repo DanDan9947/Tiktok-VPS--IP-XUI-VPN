@@ -24,6 +24,7 @@ x-ui安装命令（可以去B站搜索视频：https://www.bilibili.com/video/BV
 
 这个安装命令是最简洁最新的
 
+
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 
 小白的话就看我解说安装，（切记不能按删除键，按完无法修改）
