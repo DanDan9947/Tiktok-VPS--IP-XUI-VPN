@@ -2,8 +2,8 @@
 ## 购买服务器图片演示
 
 1、选择服务器
-我选择的服务器：https://ipraft.com/?i71b7cf
-會員中心 - iPRaft - IP纯净，Tiktok运营数据好。EPYC高性能CPU，NVMe高性能固态硬盘。美国双ISP，家宽原生IP，干净纯洁IP，美国住宅IP，美国跨境电商（比如FB、tiktok、亚马逊等推广、刷单、刷流量、开店运营），游戏出海、AMZ电商、社媒账号运营
+我选择的服务器： https://ipraft.com/?i71b7cf
+
 <div>
   <img style="margin:10px" src="./1.png" alt="drawing"/>
 </div>
