@@ -3,7 +3,6 @@
 
 1、选择服务器
 我选择的服务器：https://ipraft.com/?i71b7cf
-<link rel="链接" href="[https://ipraft.com/?i71b7cf](https://ipraft.com/?i71b7cf)">
 
 
 <div>
