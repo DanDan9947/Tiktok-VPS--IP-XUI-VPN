@@ -11,6 +11,9 @@
 <div>
   <img style="margin:10px" src="./2.png" alt="drawing"/>
 </div>
+<div>
+  <img style="margin:10px" src="./8.png" alt="drawing"/>
+</div>
 然后下载FinalShell连接你的虚拟器
 
 下载地址（windows版本）是：http://www.hostbuf.com/downloads/finalshell_windows_x64.exe
@@ -52,6 +55,9 @@ sudo systemctl status firewalld
 三、手机端配置：最好是ios系统，基本思路就是把手机重置了把能共享、定位的功能都关了，再把手机的语言和时区设置成你想运营的那个地方的一致就行了。（手机端环境一定要配置好，环境不吻合视频容易限流或封号）尽量一个tk号一固定ip不要到处飘！ios手机不能插手机卡！
 
 然后去地址测一下你的IP是否正常,输入你购买的服务器IP，如果显示ip不行可以退款，1天内可以退款，然后重新买，地址是：http://www.ipjiance.com
+<div>
+  <img style="margin:10px" src="./9.png" alt="drawing"/>
+</div>
 <div>
   <img style="margin:10px" src="./4.png" alt="drawing"/>
 </div>
