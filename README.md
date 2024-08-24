@@ -39,17 +39,14 @@ mkdir /home/wget
 </div>
 
 进入文件夹
-<div>
 cd /home/wget
-</div>
+
 三、将刚才下载的文件上传到该位置
 
 安装wget
 使用rpm安装wget
-
-<div>
 rpm -ivh wget-1.14-18.el7_6.1.x86_64.rpm
-</div>
+
 
 四、安装yum
 
