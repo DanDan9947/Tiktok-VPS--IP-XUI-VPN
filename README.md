@@ -23,8 +23,8 @@
   <img style="margin:10px" src="./3.png" alt="drawing"/>
 </div>
 
-一、安装wget
-由于新系统中没有wget，先安装wget
+## 一、安装wget
+## 由于新系统中没有wget，先安装wget
 
 阿里云镜像库 https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages
 
@@ -32,46 +32,40 @@
 <div>
   <img style="margin:10px" src="./12.png" alt="drawing"/>
 </div>
-二、上传wget安装包到linux
-创建对应文件夹
-mkdir /home/wget
 
+## 二、上传wget安装包到linux
+创建对应文件夹：mkdir /home/wget
 
-进入文件夹
-cd /home/wget
+进入文件夹：cd /home/wget
 
 三、将刚才下载的文件上传到该位置
 
-安装wget
-使用rpm安装wget
-
+## 安装wget
+# 使用rpm安装wget：
 rpm -ivh wget-1.14-18.el7_6.1.x86_64.rpm
 
+## 四、安装yum
 
-四、安装yum
-
-##强制删除已安装程序及其关联
+## 强制删除已安装程序及其关联
 rpm -qa|grep python|xargs rpm -ev --allmatches --nodeps
 
-##删除所有残余文件 ##xargs，允许你对输出执行其他某些命令
+## 删除所有残余文件 ##xargs，允许你对输出执行其他某些命令
 whereis python |xargs rm -frv -rf
 
-##验证删除，返回无结果
+## 验证删除，返回无结果
 whereis python
 
-删除yum
-
+## 删除yum
 rpm -qa|grep yum|xargs rpm -ev --allmatches --nodeps
 
 whereis yum |xargs rm -frv -rf
 
-创建安装包下载文件夹
-
+## 创建安装包下载文件夹
 mkdir /home/wget/rpm
 
-进入文件夹
+进入文件夹：cd /home/wget/rpm
 
-cd /home/wget/rpm
+##  复制一下命令，等他下载完
 
 wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/lvm2-python-libs-2.02.187-6.el7.x86_64.rpm
 wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/libxml2-python-2.9.1-6.el7.5.x86_64.rpm
@@ -95,37 +89,30 @@ wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/yum-plugin-pr
 wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/yum-plugin-fastestmirror-1.1.31-54.el7_8.noarch.rpm
 
 
-安装替换依赖
-
+## 安装替换依赖
 rpm -ivh --nodeps --force *.rpm
 
-测试yum
-
+## 测试yum
 yum
 
-删除yum源
-
+## 删除yum源
 rm -rf /etc/yum.repos.d/*
 
-下载阿里云yum源
+## 下载阿里云yum源
 # 切换目录
-
 cd /etc/yum.repos.d/
 
 # 下载
-
 wget http://mirrors.aliyun.com/repo/Centos-7.repo
 
 ## 清除缓存
-
 yum clean all
 
 ## 生成缓存
-
 yum makecache
 
 
-安装X-UI面板命令
+## 安装X-UI面板命令
 <div>
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 </div>
