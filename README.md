@@ -34,9 +34,8 @@
 </div>
 二、上传wget安装包到linux
 创建对应文件夹
-<div>
 mkdir /home/wget
-</div>
+
 
 进入文件夹
 cd /home/wget
@@ -45,6 +44,7 @@ cd /home/wget
 
 安装wget
 使用rpm安装wget
+
 rpm -ivh wget-1.14-18.el7_6.1.x86_64.rpm
 
 
@@ -60,17 +60,19 @@ whereis python |xargs rm -frv -rf
 whereis python
 
 删除yum
+
 rpm -qa|grep yum|xargs rpm -ev --allmatches --nodeps
 
 whereis yum |xargs rm -frv -rf
 
 创建安装包下载文件夹
+
 mkdir /home/wget/rpm
 
 进入文件夹
+
 cd /home/wget/rpm
 
-<div>
 wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/lvm2-python-libs-2.02.187-6.el7.x86_64.rpm
 wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/libxml2-python-2.9.1-6.el7.5.x86_64.rpm
 wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages//python-libs-2.7.5-89.el7.x86_64.rpm
@@ -91,28 +93,35 @@ wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/yum-metadata-
 wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/yum-plugin-aliases-1.1.31-54.el7_8.noarch.rpm
 wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/yum-plugin-protectbase-1.1.31-54.el7_8.noarch.rpm
 wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/yum-plugin-fastestmirror-1.1.31-54.el7_8.noarch.rpm
-</div>
+
 
 安装替换依赖
+
 rpm -ivh --nodeps --force *.rpm
 
 测试yum
+
 yum
 
 删除yum源
+
 rm -rf /etc/yum.repos.d/*
 
 下载阿里云yum源
 # 切换目录
+
 cd /etc/yum.repos.d/
 
 # 下载
+
 wget http://mirrors.aliyun.com/repo/Centos-7.repo
 
 ## 清除缓存
+
 yum clean all
 
 ## 生成缓存
+
 yum makecache
 
 
