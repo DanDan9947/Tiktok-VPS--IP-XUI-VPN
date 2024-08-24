@@ -1,3 +1,7 @@
+## 1、视频演示地址
+https://www.alipan.com/s/zheJQ3LBjJ5
+提取码: 7ff1
+
 
 # 购买服务器图片演示
 
