@@ -25,26 +25,34 @@
 
 一、安装wget
 由于新系统中没有wget，先安装wget
+
 阿里云镜像库 https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages
+
 在该界面下载 wget-1.14-18.el7_6.1.x86_64.rpm
 <div>
   <img style="margin:10px" src="./12.png" alt="drawing"/>
 </div>
 二、上传wget安装包到linux
+
 <div>
 mkdir /home/wget
 </div>
+
 进入文件夹
 <div>
 cd /home/wget
 </div>
 三、将刚才下载的文件上传到该位置
+
 安装wget
 使用rpm安装wget
+
 <div>
 rpm -ivh wget-1.14-18.el7_6.1.x86_64.rpm
 </div>
+
 四、安装yum
+
 ##强制删除已安装程序及其关联
 rpm -qa|grep python|xargs rpm -ev --allmatches --nodeps
 
@@ -56,9 +64,12 @@ whereis python
 
 删除yum
 rpm -qa|grep yum|xargs rpm -ev --allmatches --nodeps
+
 whereis yum |xargs rm -frv -rf
+
 创建安装包下载文件夹
 mkdir /home/wget/rpm
+
 进入文件夹
 cd /home/wget/rpm
 
@@ -84,19 +95,26 @@ wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/yum-plugin-al
 wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/yum-plugin-protectbase-1.1.31-54.el7_8.noarch.rpm
 wget https://mirrors.aliyun.com/centos/7.9.2009/os/x86_64/Packages/yum-plugin-fastestmirror-1.1.31-54.el7_8.noarch.rpm
 </div>
+
 安装替换依赖
 rpm -ivh --nodeps --force *.rpm
+
 测试yum
 yum
+
 删除yum源
 rm -rf /etc/yum.repos.d/*
+
 下载阿里云yum源
 # 切换目录
 cd /etc/yum.repos.d/
+
 # 下载
 wget http://mirrors.aliyun.com/repo/Centos-7.repo
+
 ## 清除缓存
 yum clean all
+
 ## 生成缓存
 yum makecache
 
