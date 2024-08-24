@@ -33,7 +33,7 @@
   <img style="margin:10px" src="./12.png" alt="drawing"/>
 </div>
 二、上传wget安装包到linux
-
+创建对应文件夹
 <div>
 mkdir /home/wget
 </div>
