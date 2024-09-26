@@ -120,6 +120,7 @@ yum makecache
 
 # 安装X-UI面板命令
 安装命令：  bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+英文版本：bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh)
 
 要关闭防火墙，或者开通端口才能访问地址
 对于使用firewalld的CentOS 8及以上版本：
