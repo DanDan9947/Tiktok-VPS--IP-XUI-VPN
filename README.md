@@ -167,4 +167,16 @@ sudo systemctl status firewalld
 # 安卓用的上网软件 v2ray ,然后扫二维码连接
 下载地址：https://www.ptxz.com/soft/8723.htm
 
+# 如果你网速慢可以开启BBR加速器
+
+教程地址是：https://blog.51cto.com/xiangxisheng/4806558
+
+执行这3条命令就好了
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+
+chmod +x bbr.sh
+
+./bbr.sh
+
+最后 脚本会提示需要重启 VPS，输入 y 并回车后重启。
 
