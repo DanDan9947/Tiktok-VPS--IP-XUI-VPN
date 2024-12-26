@@ -157,4 +157,8 @@ sudo systemctl status firewalld
 <div>
   <img style="margin:10px" src="./4.png" alt="drawing"/>
 </div>
+# 如果发现网络上不了就换端口号，然后重新扫码或者复制连接
+<div>
+  <img style="margin:10px" src="./16.png" alt="drawing"/>
+</div>
 
