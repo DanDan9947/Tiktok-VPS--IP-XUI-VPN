@@ -164,3 +164,7 @@ sudo systemctl status firewalld
   <img style="margin:10px" src="./16.png" alt="drawing"/>
 </div>
 
+# 安卓用的上网软件 v2ray ,然后扫二维码连接
+下载地址：https://www.ptxz.com/soft/8723.htm
+
+
