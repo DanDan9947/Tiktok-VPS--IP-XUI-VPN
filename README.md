@@ -22,7 +22,7 @@ https://www.alipan.com/s/zheJQ3LBjJ5
 </div>
 然后下载FinalShell连接你的虚拟器
 
-下载地址（windows版本）是：http://www.hostbuf.com/downloads/finalshell_windows_x64.exe
+下载地址（windows版本）是：https://www.hostbuf.com/t/988.html
 
 其他版本下载地址是：FinalShell SSH工具,服务器管理,远程桌面加速软件,支持Windows,macOS,Linux,版本4.3.10,更新日期2023.12.31 - FinalShell官网
 <div>
