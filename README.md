@@ -1,15 +1,14 @@
 ## 郑重申明：本文章只对合法合理做tiktok视频运营的用户做学习交流使用，有其他使用不当的违规违法行为后果自负！
 
-## 1、视频安装演示地址
-https://www.alipan.com/s/zheJQ3LBjJ5
-提取码: 7ff1
+## 1、安装不了支持远程付费
+微星： lhz9947
 
 
 # 购买服务器图片演示
 
 1、选择服务器
-我选择的服务器：https://ipraft.com/?i71b7cf
-
+我选择的服务器1：https://ipraft.com/?i71b7cf
+服务器2：https://console.evoxt.com/aff.php?aff=4912
 
 <div>
   <img style="margin:10px" src="./1.png" alt="drawing"/>
