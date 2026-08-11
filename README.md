@@ -8,6 +8,7 @@
 
 1、选择服务器
 我选择的服务器1：https://ipraft.com/?i71b7cf
+
 服务器2：https://console.evoxt.com/aff.php?aff=4912
 
 <div>
