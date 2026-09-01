@@ -29,7 +29,7 @@
   <img style="margin:10px" src="./3.png" alt="drawing"/>
 </div>
 
-# 二选一  安装3x-ui面板 或者按安装 X-UI面板
+# 二选一  安装3x-ui面板 或者按安装 X-UI面板  或者去问ai怎么用 3x-ui 或者bibi看视频
 安装命令： bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 <div>
   <img style="margin:10px" src="./20.png" alt="drawing"/>
@@ -48,6 +48,9 @@
 </div>
 <div>
   <img style="margin:10px" src="./25.png" alt="drawing"/>
+</div>
+<div>
+  <img style="margin:10px" src="./27.png" alt="drawing"/>
 </div>
 
 
