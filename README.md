@@ -52,7 +52,12 @@
 <div>
   <img style="margin:10px" src="./27.png" alt="drawing"/>
 </div>
-
+<div>
+  <img style="margin:10px" src="./59.png" alt="drawing"/>
+</div>
+<div>
+  <img style="margin:10px" src="./60.png" alt="drawing"/>
+</div>
 
 # 二选一  安装X-UI面板命令
 安装命令：  bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
