@@ -23,6 +23,10 @@
 <div>
   <img style="margin:10px" src="./8.png" alt="drawing"/>
 </div>
+<div>
+  <img style="margin:10px" src="./85.png" alt="drawing"/>
+</div>
+
 然后下载FinalShell连接你的虚拟器
 
 下载地址（windows版本）是：https://www.hostbuf.com/t/988.html
